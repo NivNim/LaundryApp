@@ -1,0 +1,76 @@
+/* Center align all content horizontally and vertically */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use the full height of the viewport */
+  background-image: url('https://t4.ftcdn.net/jpg/02/78/44/47/360_F_278444721_3kU21CHqIYbAFj3IDYaekE5zsHLzIOUB.jpg'); 
+}
+
+/* Style for the login container */
+.login-container {
+  max-width: 300px; /* Set maximum width */
+  margin: 0 auto; /* Center align horizontally */
+  padding: 40px; /* Padding around the container */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: rgb(5, 187, 242); /* Blue background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Center align text */
+}
+
+/* Style for the login title */
+.login-title {
+  margin-bottom: 300px; /* Spacing below the title */
+}
+
+/* Style for error messages */
+.error-message {
+  color: red; /* Red color for error messages */
+  margin-bottom: 15px; /* Spacing below error messages */
+}
+
+/* Style for form groups */
+.form-group {
+  margin-bottom: 20px; /* Spacing between form groups */
+}
+
+/* Style for form inputs */
+.form-input {
+  padding: 15px; /* Padding for form inputs */
+  margin-bottom: 20px; /* Spacing below form inputs */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  width: calc(100% - 30px); /* Adjusted width */
+  font-size: 16px; /* Font size */
+  height: 50px; /* Height of form inputs */
+}
+
+/* Style for submit button */
+.submit-button {
+  padding: 15px; /* Padding for button */
+  width: calc(100% - 30px); /* Adjusted width */
+  height: 50px; /* Height of button */
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+}
+
+/* Hover style for submit button */
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Style for paragraphs */
+p {
+  margin-top: 250px; /* Spacing above paragraphs */
+}
+
+/* Style for underline text */
+p u {
+  cursor: pointer; /* Cursor style */
+  color: #007bff; /* Blue color */
+}

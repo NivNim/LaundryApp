@@ -1,0 +1,67 @@
+.signup-container {
+  max-width: 400px; /* Decreased max-width for a slightly smaller form */
+  margin: 0 auto;
+  padding: 20px; /* Decreased padding for less space around the form elements */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increased border radius for a smoother look */
+  text-align: center; /* Center align all text */
+  color: #fff; /* Change text color to white */
+}
+
+.signup-container h1 {
+  margin-bottom: 15px; /* Decreased margin bottom for better spacing */
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align form elements */
+}
+
+.signup-container label {
+  margin-bottom: 8px; /* Decreased margin bottom for better spacing */
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="password"] {
+  padding: 10px; /* Decreased padding for input fields */
+  margin-bottom: 15px; /* Decreased margin bottom for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Make input fields full width */
+}
+
+.signup-container button[type="submit"] {
+  padding: 10px 20px; /* Decreased padding for button */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size for better visibility */
+}
+
+.signup-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.signup-container p {
+  margin-top: 15px; /* Decreased margin top for better spacing */
+}
+
+.signup-container p u {
+  cursor: pointer;
+  color: #007bff;
+}
+.signup-container {
+  max-width: 400px; /* Decreased max-width for a slightly smaller form */
+  margin: 0 auto;
+  padding: 20px; /* Decreased padding for less space around the form elements */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increased border radius for a smoother look */
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201209/pngtree-blue-gradient-laundry-background-image_507378.jpg');
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  text-align: center; /* Center align all text */
+  color: #fff; /* Change text color to white */
+}

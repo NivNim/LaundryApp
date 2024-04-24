@@ -1,0 +1,29 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://i.pinimg.com/474x/3b/0d/fa/3b0dfa9db57c9538d2650193e44d7573.jpg');
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+  }
+  
+  .home-title {
+    font-size: 36px;
+    color: #056bfa; /* Change text color to white */
+    margin-bottom: 350px;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #056bfa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  
